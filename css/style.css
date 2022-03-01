@@ -1,0 +1,49 @@
+body {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+* {
+  transition: 2s;
+}
+@keyframes black-white {
+  from {
+    color: black;
+  }
+  to {
+    color: white !important;
+  }
+}
+@keyframes black-white {
+  from {
+    color: black;
+  }
+  to {
+    color: white !important;
+  }
+}
+.towhite {
+  animation-name: black-white;
+  animation-duration: 2s;
+  color: #fff;
+}
+.navbar-brand {
+  margin-right: auto !important;
+}
+.cont {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 80vw;
+}
+.top-sch-info {
+  padding: 0 10%;
+}
+.bg-green {
+  background-color: #2ed587;
+}
+.bg-light-green {
+  background-color: #66e9ac;
+}
+.no-wrap {
+  flex-wrap: nowrap;
+}

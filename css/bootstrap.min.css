@@ -3961,6 +3961,8 @@ fieldset:disabled .btn {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-dark .navbar-brand {
+  animation-name: black-white;
+  animation-duration: 2s;
   color: #fff;
 }
 .navbar-dark .navbar-brand:focus,
