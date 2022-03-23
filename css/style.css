@@ -14,29 +14,34 @@ body {
     color: white !important;
   }
 }
-@keyframes black-white {
-  from {
-    color: black;
-  }
-  to {
-    color: white !important;
-  }
+  /* @keyframes to-bootom-corner {
+    from {
+      top: 0;
+    }
+    to {
+      bottom: 100;
+    }
+  } */
+.no-wrap {
+  flex-wrap: nowrap;
 }
 .towhite {
   animation-name: black-white;
   animation-duration: 2s;
   color: #fff;
 }
+.mb-0-4 {
+  margin-bottom: 0.4em;
+}
 .navbar-brand {
   margin-right: auto !important;
 }
-.cont {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 80vw;
-}
 .top-sch-info {
-  padding: 0 10%;
+  align-items: center;
+  display: flex;
+}
+.top-sch-info>div {
+  padding-left: 10%;
 }
 .bg-green {
   background-color: #2ed587;
@@ -44,6 +49,26 @@ body {
 .bg-light-green {
   background-color: #66e9ac;
 }
-.no-wrap {
-  flex-wrap: nowrap;
+.gate-icon {
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+}
+.static-back-to-top {
+  right: 5%;
+  bottom: 5%;
+}
+.back-to-top {
+  animation-name: bounce;
+  animation-duration: 2s;
+  right: 5%;
+  bottom: 5%;
+}
+.back-to-top:hover {
+    cursor: pointer;
+}
+.bg {
+  background-image: url("/assets/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }

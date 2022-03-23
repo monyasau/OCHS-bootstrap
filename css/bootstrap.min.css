@@ -5771,7 +5771,7 @@ fieldset:disabled .btn {
 }
 .fixed-top {
   position: fixed;
-  top: 0;
+  top: 40%;
   right: 0;
   left: 0;
   z-index: 1030;
@@ -5780,7 +5780,7 @@ fieldset:disabled .btn {
   position: fixed;
   right: 0;
   bottom: 0;
-  left: 0;
+  /* left: 0; */
   z-index: 1030;
 }
 .sticky-top {
@@ -6081,11 +6081,21 @@ fieldset:disabled .btn {
 .w-75 {
   width: 75% !important;
 }
+.w-80 {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80vw;
+}
 .w-100 {
   width: 100% !important;
 }
 .w-auto {
   width: auto !important;
+}
+.mw-80 {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 80vw;
 }
 .mw-100 {
   max-width: 100% !important;
@@ -6445,6 +6455,15 @@ fieldset:disabled .btn {
 }
 .p-5 {
   padding: 3rem !important;
+}
+.p-6 {
+  padding: 4rem !important;
+}
+.p-7 {
+  padding: 5rem !important;
+}
+.p-8 {
+  padding: 7rem !important;
 }
 .px-0 {
   padding-right: 0 !important;
