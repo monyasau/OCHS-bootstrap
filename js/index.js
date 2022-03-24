@@ -44,10 +44,10 @@ let randomQuote = (array)=> {
     }, 50);
     let typeWriter = ()=> {
       let i = 1;
-      let speed = 2000;
+      let speed = 4000;
       
     if (i < randomQuote(quotes).length) {
-      document.getElementById("demo").innerHTML = randomQuote(quotes);
+      document.getElementById("autoWrite").innerHTML = randomQuote(quotes);
       i++;
       setTimeout(typeWriter, speed);
     }
