@@ -4,8 +4,8 @@ let navCont = document.querySelector(".navbar")
 let homeLink = document.querySelector(".home-link");
 let demoIcon = document.querySelector("#demoIcon");
 const quotes = [
-  "Our school is a building which has four walls with knowlegde and success inside",
-  "Develp a passion to learn and you will never cease to grow",
+  "Our school is a building which has four walls with knowledge and success inside",
+  "Develop a passion to learn and you will never cease to grow",
   "* french quote",
   "Honesty, integrity, excellency and hardwork are our watch words."
 ];
@@ -47,6 +47,10 @@ let randomQuote = (array)=> {
       let speed = 4000;
       
     if (i < randomQuote(quotes).length) {
+      setInterval(() => {
+      document.getElementById("autoWrite").className = " mx-auto h3 text-center text-white";
+      }, 2000);
+      document.getElementById("autoWrite").className = " mx-auto h3 togrey";
       document.getElementById("autoWrite").innerHTML = randomQuote(quotes);
       i++;
       setTimeout(typeWriter, speed);
