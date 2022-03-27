@@ -4,10 +4,12 @@ let navCont = document.querySelector(".navbar")
 let homeLink = document.querySelector(".home-link");
 let demoIcon = document.querySelector("#demoIcon");
 const quotes = [
-  "Our school is a building which has four walls with knowledge and success inside",
-  "Develop a passion to learn and you will never cease to grow",
-  "* french quote",
-  "Honesty, integrity, excellency and hardwork are our watch words."
+  "“Our school is a building which has four walls with knowledge and success inside.”",
+  "“Develop a passion to learn and you will never cease to grow.”",
+  "“Honesty, integrity, excellency and hardwork are our watch words.”",
+  "“An investment in knowledge pays the best interest.”",
+  "“Change is the end result of all true learning.”",
+  "“Excellence is not a skill. It is an attitude.”",
 ];
 let bodyScrolled = () => {  
     homeLink.className = "nav-link border home-link towhite";
